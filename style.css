@@ -1,0 +1,158 @@
+*{
+
+  box-sizing : border-box;
+
+}
+
+body{
+
+  margin : 0px;
+  padding : 0px;
+  font : poppins;
+}
+
+#main{
+
+  width : 100%;
+  height : 30vh;
+  position : relative;
+}
+
+nav{
+
+  display : flex;
+  justify-content: space-around;
+  align-items : center;
+  position : fixed;
+  top : 0px;
+  left : 0px;
+  width: 100%;
+  font-size: 1.25em;
+  box-shadow: 5px 10px 30px grey;
+  background-color: white;
+}
+
+.nav-bar img{
+
+  height: 100px;
+  
+}
+ 
+.list{
+
+  list-style: none;
+  display : flex;
+
+}
+
+.list li a{
+
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 3px;
+  line-height : 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color : gray;
+  text-decoration: none;
+
+}
+
+.hi{
+
+  color: aquamarine;
+  border-top : 8.5px solid white;
+  font-weight: 500;
+  font-size : 30px;
+  
+}
+  
+.me{
+
+  height : 600px;
+  width : 600px;
+  
+}
+
+.me img{
+
+  width : 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.details{
+  display : flex;
+  align-items: center;
+  justify-content: space-around;
+  width : 90%;
+  position : absolute;
+  
+}
+
+.content{
+
+  padding-top: 50px;
+  width : 500px;
+  
+}
+
+.content h1{
+
+  font-size : 4em;
+  color : #1c3548;
+  margin : 0px 0px 10px 0px;
+  line-height : 60px;
+}
+
+.content p{
+
+  color : grey;
+  font-size: 1.5em;
+}
+
+.resume{
+
+  height : 44px;
+  width : 190px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  color : white;
+  background-color: #1db096;
+  border-radius: 20px;
+  box-shadow :  5px 10px 30px grey;
+  text-decoration: none;
+}
+
+.resume:hover{
+
+  background-color:#23cdaf;
+  transition : all ease 0.2;
+}
+
+.list li a:hover {
+
+  background-color: #23cdaf;
+  color: white;
+  box-shadow:5px 10px 30px grey;
+  transition : all ease 0.2; 
+}
+
+.hi:hover{
+
+  color : violet;
+}
+
+
+
+  
+
+
+
+
+
+
+
